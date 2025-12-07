@@ -260,29 +260,47 @@ nav a.active {
 
 /* === Hero Section === */
 .hero {
-    background-color: var(--color-bg-light);
+    background-image: url('../../image/Gemini_Generated_Image_jnmw2cjnmw2cjnmw.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
     padding: var(--spacing-xxl) var(--spacing-md);
     min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 
 .hero-content {
     max-width: 900px;
     margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 .hero h1 {
     font-size: 2.8rem;
     margin-bottom: var(--spacing-md);
     line-height: 1.2;
+    color: #ffffff;
 }
 
 .hero p {
     font-size: 1.2rem;
-    color: var(--color-text-medium);
+    color: #ffffff;
     margin-bottom: var(--spacing-lg);
 }
 
