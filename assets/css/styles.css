@@ -60,10 +60,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: var(--spacing-sm);
 }
 
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem; }
-h4 { font-size: 1.25rem; }
+h1 { font-size: 3.2rem; }
+h2 { font-size: 2.5rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.35rem; }
 h5 { font-size: 1.1rem; }
 h6 { font-size: 1rem; }
 
@@ -292,7 +292,7 @@ nav a.active {
 }
 
 .hero h1 {
-    font-size: 2.8rem;
+    font-size: 3.8rem;
     margin-bottom: var(--spacing-md);
     line-height: 1.2;
     color: #ffffff;
@@ -318,7 +318,7 @@ nav a.active {
 }
 
 .section-title h2 {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
     margin-bottom: var(--spacing-sm);
 }
 
@@ -738,11 +738,11 @@ footer {
 
 /* Tablet */
 @media (max-width: 992px) {
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.75rem; }
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2.2rem; }
 
     .hero h1 {
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
 
     .hero p {
@@ -765,8 +765,8 @@ footer {
 
 /* Mobile */
 @media (max-width: 768px) {
-    h1 { font-size: 1.75rem; }
-    h2 { font-size: 1.5rem; }
+    h1 { font-size: 2.2rem; }
+    h2 { font-size: 1.9rem; }
 
     .hero {
         min-height: 60vh;
@@ -774,7 +774,7 @@ footer {
     }
 
     .hero h1 {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
     }
 
     .hero p {
@@ -888,10 +888,10 @@ footer {
 
 /* Small Mobile */
 @media (max-width: 480px) {
-    h1 { font-size: 1.5rem; }
+    h1 { font-size: 2rem; }
 
     .hero h1 {
-        font-size: 1.6rem;
+        font-size: 2.2rem;
     }
 
     .logo {
@@ -899,7 +899,7 @@ footer {
     }
 
     .section-title h2 {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
     }
 }
 
